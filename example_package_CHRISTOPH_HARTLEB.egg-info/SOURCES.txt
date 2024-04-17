@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+example_package_CHRISTOPH_HARTLEB.egg-info/PKG-INFO
+example_package_CHRISTOPH_HARTLEB.egg-info/SOURCES.txt
+example_package_CHRISTOPH_HARTLEB.egg-info/dependency_links.txt
+example_package_CHRISTOPH_HARTLEB.egg-info/top_level.txt
+symclone/Expression.py
+symclone/FuzzyBoolean.py
+symclone/MathOperations.py
+symclone/Symbol.py
+symclone/__init__.py
+tests/TestExpression.py
+tests/TestFuzzyBoolean.py
+tests/TestMathOperations.py
+tests/TestSymbol.py

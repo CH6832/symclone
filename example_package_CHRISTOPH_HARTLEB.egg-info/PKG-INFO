@@ -1,0 +1,231 @@
+Metadata-Version: 2.1
+Name: example_package_CHRISTOPH_HARTLEB
+Version: 0.0.1
+Summary: SymClone - A Sympy Clone
+Home-page: 
+Author: Christoph Hartleb
+Author-email: Christoph Hartleb <christophhartleb@gmx.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: informative License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SymClone
+
+## :newspaper: About the project
+
+SymClone is a powerful Python library designed to provide advanced symbolic mathematics capabilities similar to the renowned SymPy library. With SymClone, users can manipulate symbolic expressions, perform calculus operations, pretty print expressions in various formats, and more.
+
+### How it was done
+
+Identify the core functionalities of SymPy that need to be replicated.
+Understand the design principles and architecture of SymPy.
+Design Phase:
+
+Determine the overall architecture of the new library.
+Decide on the programming language(s) to be used.
+Design the data structures and algorithms necessary for symbolic mathematics operations.
+Implementation:
+
+Begin by implementing the foundational components, such as expressions, symbols, and basic arithmetic operations.
+Gradually extend the functionality to include more advanced features like calculus, algebra, and differential equations.
+Ensure compatibility with existing SymPy functionality, including support for symbolic manipulation, simplification, and equation solving.
+Testing:
+
+Develop a comprehensive test suite to verify the correctness and robustness of the implemented functionality.
+Conduct rigorous testing to compare the results of the new library with SymPy to ensure consistency.
+Documentation:
+
+Provide thorough documentation for users, including tutorials, examples, and API references.
+Ensure clarity and accessibility to facilitate adoption by the mathematical and scientific community.
+Optimization:
+
+Optimize performance where possible, especially for frequently used operations.
+Consider parallelization and optimization techniques to enhance computational efficiency.
+Community Engagement:
+
+Foster a community around the new library by encouraging contributions, feedback, and collaboration.
+Establish communication channels such as forums, mailing lists, and version control repositories.
+Integration and Compatibility:
+
+Ensure seamless integration with existing Python libraries and frameworks commonly used in scientific computing.
+Provide compatibility with relevant standards and formats to facilitate interoperability with other software tools.
+Maintenance and Support:
+
+Commit to ongoing maintenance and support to address bugs, add new features, and keep the library up-to-date with the latest developments in symbolic mathematics.
+Promotion and Adoption:
+
+Promote the new library through academic publications, conference presentations, and collaborations with research institutions.
+Encourage adoption by educators, researchers, and practitioners in various fields of science, engineering, and mathematics.
+By following these steps meticulously and leveraging the expertise of the MIT community, we can create a clone of SymPy that not only replicates its functionality but also advances the state-of-the-art in symbolic mathematics.
+
+
+### How it works
+
+
+# SymClone
+
+SymClone is a Python package for symbolic manipulation of DNA sequences. It provides classes and functions for various operations on DNA sequences, such as generating complementary sequences, computing sequence similarities, and performing sequence transformations.
+
+## Features
+
+- Symbolic manipulation of DNA sequences
+- Computation of complementary sequences
+- Calculation of sequence similarities
+- Transformation operations on DNA sequences
+
+## Installation
+
+You can install SymClone via pip:
+
+```bash
+pip install symclone
+
+
+
+SymClone is built upon the principles of symbolic mathematics, allowing users to manipulate mathematical expressions symbolically rather than numerically. The library provides a set of classes and functions to create, manipulate, and analyze symbolic expressions.
+
+1. Expression Representation:
+
+    SymClone represents mathematical expressions using symbolic variables, operators, and functions. Users can define symbolic variables using the Symbol class and build expressions using arithmetic operators and mathematical functions.
+
+2. Manipulation and Evaluation:
+
+    Users can manipulate symbolic expressions using a variety of operations, including addition, subtraction, multiplication, division, exponentiation, and more. SymClone supports the creation of complex expressions through nested compositions of operators and functions.
+    Symbolic expressions can be evaluated numerically by substituting numerical values for symbolic variables. SymClone provides a substitute method to perform these substitutions and return the numerical result of the expression.
+
+3. Calculus Operations:
+
+    SymClone offers calculus functionalities for computing derivatives, integrals, limits, and series expansions of symbolic expressions. Users can compute derivatives with respect to one or more variables, integrals with or without specified limits, limits as variables approach specified values, and series expansions around specified points up to a given order.
+
+4. Pretty Printing:
+
+    SymClone allows users to display symbolic expressions in a visually appealing manner using Unicode, ASCII, or MathML formats. This makes it easy to present mathematical expressions in documents, presentations, or web pages, ensuring clarity and readability.
+
+5. Performance Optimization:
+
+    SymClone is designed with performance in mind, ensuring efficient execution even for complex symbolic computations. The library includes tools for profiling and optimizing critical parts of the codebase, allowing developers to identify and address performance bottlenecks effectively.
+
+6. Extensive Documentation:
+
+    SymClone provides comprehensive documentation that guides users through installation, usage, contributing guidelines, and API reference. This documentation ensures that users can easily get started with the library and make the most of its capabilities.
+
+7. Testing and Reliability:
+
+    SymClone is rigorously tested to ensure the reliability and correctness of its functionalities. Unit tests cover various aspects of the library, helping maintain stability and consistency across different releases.
+
+8. Community and Contributions:
+
+    SymClone is an open-source project, welcoming contributions from developers worldwide. The community-driven development process ensures that SymClone continues to evolve, incorporating new features, enhancements, and optimizations to meet the needs of its users.
+
+## :notebook: Features
+
+Organizing a GitHub repository for your SymClone project involves structuring it in a way that makes it easy for contributors and users to navigate, understand, and contribute to the project. Here's a suggested structure:
+
+    Root Directory:
+        README.md: Provide an overview of the project, installation instructions, usage examples, and any other relevant information.
+        LICENSE: Choose an appropriate open-source license for your project.
+        .gitignore: Include files and directories to be ignored by version control (e.g., virtual environments, cache files).
+
+    Source Code:
+        symclone/: This directory contains the source code of the SymClone library.
+            __init__.py: Initialize the SymClone package.
+            expression.py: Implement the Expression class and other core functionalities.
+            utils.py: Utility functions used across the project.
+            calculus.py: Implement calculus-related functionalities (derivatives, integrals, limits, series expansions).
+            pretty_printing.py: Implement pretty printing functionalities (Unicode, ASCII, MathML).
+            tests/: Directory containing unit tests for the SymClone library.
+                test_expression.py: Unit tests for the Expression class.
+                test_calculus.py: Unit tests for calculus-related functionalities.
+                test_pretty_printing.py: Unit tests for pretty printing functionalities.
+            examples/: Directory containing example usage scripts.
+                example1.py
+                example2.py
+                ...
+        setup.py: Define project metadata, dependencies, and installation instructions.
+
+    Documentation:
+        docs/: Directory containing project documentation.
+            index.md: Main documentation file.
+            usage.md: Detailed usage instructions, including code examples.
+            contributing.md: Guidelines for contributing to the project.
+            profiling.md: Instructions for profiling and optimizing code.
+            api_reference.md: API reference documentation for the SymClone library.
+            ...
+
+    Additional Resources:
+        profiling/: Directory containing code optimization and profiling scripts.
+            profile_expression.py: Script to profile Expression class performance.
+            optimize_calculus.py: Script to optimize calculus-related functionalities.
+        benchmarks/: Directory containing benchmarking scripts for performance comparison.
+            benchmark_calculus.py: Benchmark script for calculus operations.
+            benchmark_pretty_printing.py: Benchmark script for pretty printing functionalities.
+        examples/: Additional examples demonstrating advanced usage scenarios.
+
+    Tests:
+        Automated tests for the SymClone library are located in the tests/ directory. You can use popular testing frameworks like pytest or unittest.
+
+    Examples:
+        Example usage scripts are located in the examples/ directory. These scripts demonstrate how to use various features of the SymClone library.
+
+    Profiling and Optimization:
+        Scripts for profiling and optimizing code are located in the profiling/ directory. These scripts help identify performance bottlenecks and optimize critical parts of the codebase.
+
+    Documentation:
+        Detailed documentation is located in the docs/ directory. This includes usage instructions, contributing guidelines, API reference documentation, and information on code profiling and optimization.
+
+### Content overview
+
+    .
+    ├── linked_list/ - implementation and test case of linked list
+    ├── stack/ - implementation and test case of stack
+    ├── queue/ - implementation and test case of queue
+    ├── tree/ - implementation and test case of tree
+    ├── graph/ - implementation and test case of graph
+    ├── example_usages.py - main program contains example usages
+    ├── LICENSE - license file
+    └── README.md - project descriptions and instructions
+
+## :runner: Getting started
+
+### Prerequisites and example usage
+
+1. Activate virtual environment:
+
+1. Install requirements:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+2. Run script to see how it works:
+
+```bash
+python3 example_usages.py
+```
+
+## :books: Resources used to create this project
+
+* Python
+  * [Python 3.11 documentation](https://docs.python.org/3.11/)
+  * [Built-in Functions](https://docs.python.org/3.11/library/functions.html)
+  * [Python Module Index](https://docs.python.org/3.11/py-modindex.html)
+  * [math — Mathematical functions](https://docs.python.org/3/library/math.html)
+  * [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+* SymPy
+  * [SymPy](https://www.sympy.org/en/index.html)
+* Markdwon
+  * [Basic syntax](https://www.markdownguide.org/basic-syntax/)
+  * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
+  * [Awesome template](http://github.com/Human-Activity-Recognition/blob/main/README.md)
+  * [.gitignore file](https://git-scm.com/docs/gitignore)
+* Editor
+  * [Visual Studio Code](https://code.visualstudio.com/)
+
+## :bookmark: License
+
+[MIT License](https://opensource.org/license/mit) :copyright: 2024 Christoph Hartleb
+
+
