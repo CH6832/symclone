@@ -25,7 +25,7 @@ class MathOperations:
     
 
     @staticmethod
-    def derivative(expression: callable, symbol: str, value: float, h: float = 0.0001) -> Any:
+    def derivative(expression, symbol: str, value: float, h: float = 0.0001) -> Any:
         """Compute the derivative of an expression with respect to a given symbol numerically.
 
         Arguments:
@@ -34,7 +34,7 @@ class MathOperations:
         value -- The point at which to compute the derivative.
         h -- Step size for numerical differentiation.
         """
-        rate_of_change = (expression(value + h) - expression(value)) / h
+        rate_of_change = ((value + h) - value) / h
         return rate_of_change
 
 
