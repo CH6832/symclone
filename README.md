@@ -122,9 +122,9 @@ python3 example_usages.py
 ## :books: Resources used to create this project
 
 * Python
-  * [Python 3.11 documentation](https://docs.python.org/3.11/)
-  * [Built-in Functions](https://docs.python.org/3.11/library/functions.html)
-  * [Python Module Index](https://docs.python.org/3.11/py-modindex.html)
+  * [Python 3.12 documentation](https://docs.python.org/3/)
+  * [Built-in Functions](https://docs.python.org/3/library/functions.html)
+  * [Python Module Index](https://docs.python.org/3/py-modindex.html)
   * [math — Mathematical functions](https://docs.python.org/3/library/math.html)
   * [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 * SymPy
