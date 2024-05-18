@@ -121,24 +121,36 @@ Organizing a GitHub repository for your SymClone project involves structuring it
 
 ### Prerequisites and example usage
 
-1. Install requirements:
+0. Clone repository:
 
-```bash
+```sh
+git clone https://github.com/CH6832/symclone.git
+```
+
+1. Move into `symclone` directory. 
+
+2. Install requirements:
+
+```sh
 pip3 install -r requirements.txt
 ```
 
-2. Run script to see how it works:
+3. Run script to see how it works:
 
-```bash
+```sh
 python3 example_usages.py
 ```
+
+### How the `.whl` package was built
+
+
 
 ## :books: Resources used to create this project
 
 * Python
-  * [Python 3.11 documentation](https://docs.python.org/3.11/)
-  * [Built-in Functions](https://docs.python.org/3.11/library/functions.html)
-  * [Python Module Index](https://docs.python.org/3.11/py-modindex.html)
+  * [Python 3.12 documentation](https://docs.python.org/3/)
+  * [Built-in Functions](https://docs.python.org/3/library/functions.html)
+  * [Python Module Index](https://docs.python.org/3/py-modindex.html)
   * [math — Mathematical functions](https://docs.python.org/3/library/math.html)
   * [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 * SymPy
@@ -155,4 +167,10 @@ python3 example_usages.py
 
 Individual LICENSE :copyright: 2024 Christoph Hartleb
 
+## :copyright: Copyright
 
+See the [COPYRIGHT](COPYRIGHT) file for copyright and licensing details.
+
+## :straight_ruler: Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.

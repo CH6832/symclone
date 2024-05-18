@@ -1,7 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""TestExpression.py
+
+Unittest for the Expression class.
+"""
+
+import os
+import sys
 import unittest
-from symclone import Expression
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(project_root)
+from symclone.Expression import Expression
 
 class TestExpression(unittest.TestCase):
+
     def test_evaluate(self):
         expr = Expression('x**2 + 2*x + 1')
         self.assertEqual(expr.evaluate({'x': 3}), 16.0)

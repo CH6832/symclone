@@ -1,5 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""Symbol.py
+
+Symbol class for the SymClone library.
+"""
+
 class Symbol:
-    def __init__(self, name):
+    """Class to represent a symbolic variable."""
+    
+    def __init__(self, name: str):
         self.name = name
 
     def __str__(self):

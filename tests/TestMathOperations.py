@@ -1,11 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""MathOperations.py
+
+Unittest for the MathOperations class.
+"""
+
+import os
+import sys
 import unittest
-from symclone import MathOperations
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(project_root)
+from symclone.MathOperations import MathOperations
 
 class TestMathOperations(unittest.TestCase):
+    
     def test_derivative(self):
         func = lambda x: x**2 + 2*x + 1
         result = MathOperations.derivative(func, 'x', 3)
         self.assertEqual(result, 8.0001)  # Approximately equal due to numerical differentiation
+
 
     def test_integral(self):
         func = lambda x: x**2 + 2*x + 1
