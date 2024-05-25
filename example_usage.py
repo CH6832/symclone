@@ -44,5 +44,3 @@ def main():
         print("Limit as x approaches 0:", limit_expr)
     except ValueError as e:
         print("Limit error:", e)
-
-    # Comput
