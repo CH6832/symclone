@@ -27,10 +27,8 @@ class MathOperations:
         expression (Callable[[float], float]): The expression to differentiate.
         value (float): The point at which to compute the derivative.
         h (float): Step size for numerical differentiation.
-
-        Returns:
-        float: The numerical derivative at the given point.
         """
+        
         return (expression(value + h) - expression(value - h)) / (2 * h)
 
     @staticmethod
@@ -39,17 +37,15 @@ class MathOperations:
 
         Parameters:
         expression (Callable[[float], float]): The expression to integrate.
-        lower_limit (float): The lower limit of integration.
-        upper_limit (float): The upper limit of integration.
-        num_intervals (int): Number of intervals for numerical integration.
-
-        Returns:
-        float: The numerical integral over the specified range.
+        lower_limit (float) -- The lower limit of integration.
+        upper_limit (float) -- The upper limit of integration.
+        num_intervals (int) -- Number of intervals for numerical integration.
         """
         interval_width = (upper_limit - lower_limit) / num_intervals
         integral = 0.5 * (expression(lower_limit) + expression(upper_limit))
         for i in range(1, num_intervals):
             integral += expression(lower_limit + i * interval_width)
+
         return integral * interval_width
 
     @staticmethod
@@ -60,10 +56,8 @@ class MathOperations:
         expression (Callable[[float], float]): The expression to evaluate.
         value (float): The value toward which the limit is computed.
         h (float): A small step size to approach the limit.
-
-        Returns:
-        float: The numerical limit of the expression as the value approaches the specified point.
         """
+
         return (expression(value + h) + expression(value - h)) / 2
 
     @staticmethod
@@ -72,14 +66,12 @@ class MathOperations:
 
         Parameters:
         expression (Callable[[float], float]): The expression to expand.
-        point (float): The point around which the series expansion is computed.
-        order (int): The order of the series expansion.
-
-        Returns:
-        list: Coefficients of the Taylor series expansion.
+        point (float) -- The point around which the series expansion is computed.
+        order (int) -- The order of the series expansion.
         """
         coefficients = [expression(point)]
         for i in range(1, order + 1):
             derivative = MathOperations.derivative(expression, point, h=1e-5)
             coefficients.append(derivative / math.factorial(i))
+
         return coefficients
