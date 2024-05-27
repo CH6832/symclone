@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     author='Christoph Hartleb',
     author_email='your@email.com',
-    description='A package for symbolic manipulation of DNA sequences',
+    description='A package for symbolic mathematics, modeled after SymPy, offering comprehensive CAS functionality with simple, extensible code.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='',
