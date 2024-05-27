@@ -81,7 +81,7 @@ py -m pip install "dist/example_package_CHRISTOPH_HARTLEB-0.0.1-py3-none-any.whl
 
 ## :bookmark: License
 
-Individual LICENSE :copyright: 2024 Christoph Hartleb
+[Individual LICENSE](LICENSE) :copyright: 2024 Christoph Hartleb
 
 ## :copyright: Copyright
 
