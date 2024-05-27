@@ -13,7 +13,8 @@ import math
 from typing import Any, Callable, List
 
 class MathOperations:
-    """Class providing various mathematical operations on expressions.
+    """
+    Class providing various mathematical operations on expressions.
 
     This class contains static methods to perform mathematical operations such as derivative calculation,
     numerical integration, limit computation, and Taylor series expansion.
