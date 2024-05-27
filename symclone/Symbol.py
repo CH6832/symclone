@@ -6,6 +6,9 @@
 Symbol class for the SymClone library.
 """
 
+# https://docs.pylint.org/
+# pylint: disable=line-too-long, trailing-whitespace, multiple-statements, fixme, locally-disabled
+
 class Symbol:
     """
     Class to represent a symbolic variable.
