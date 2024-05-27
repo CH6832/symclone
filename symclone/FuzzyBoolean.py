@@ -3,7 +3,7 @@
 
 """FuzzyBoolean.py
 
-Example usage of the SymClone library.
+FuzzyBoolean logic for the SymClone library.
 """
 
 # https://docs.pylint.org/
