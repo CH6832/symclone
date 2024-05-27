@@ -1,25 +1,22 @@
+Metadata-Version: 2.1
+Name: symclone_package
+Version: 0.0.1
+Summary: SymClone - A Sympy Clone
+Home-page: 
+Author: Christoph Hartleb
+Author-email: Christoph Hartleb <krystovhar@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: informative License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # SymClone
 
 ## :newspaper: About the project
 
 Discover the limitless potential of SymClone, a robust Python library meticulously crafted to empower users with unparalleled capabilities in symbolic mathematics, rivaling the esteemed SymPy library. Seamlessly navigate the realm of advanced mathematical computations as SymClone unleashes a spectrum of features, enabling you to effortlessly manipulate symbolic expressions, conduct intricate calculus operations, elegantly format expressions for seamless readability, and embark on a journey of mathematical exploration like never before. Elevate your computational prowess with SymClone and unlock a world of boundless mathematical possibilities at your fingertips.
-
-### Content overview
-
-    .
-    ├── dist/ - contains the generated distribution packages
-    ├── symclone/ - symclone source code
-    ├── symclone_package.egg-info/ - metadata about the package
-    ├── tests/ - project tests
-    ├── .gitignore - contains folders/files ignored by git
-    ├── CODE_OF_CONDUCT.md - project code of conduct
-    ├── COPYRIGHT - project copyright
-    ├── example_usage.py - example usage of symclone
-    ├── LICENSE - license text
-    ├── pyproject.toml - build system and dependencies specifications
-    ├── README.md - relevant information about the project
-    ├── requirements.txt - requirements to run the project    
-    └── setup.py - configurations for setuptools
 
 ## :notebook: Features
 

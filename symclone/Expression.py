@@ -38,7 +38,7 @@ class Expression:
         
         return f"Expression('{self.expr}')"
 
-    def substitute(self, symbol_values: dict) -> Expression:
+    def substitute(self, symbol_values: dict) -> 'Expression':
         """Substitute symbolic variables with a numerical one.
 
         Parameters:

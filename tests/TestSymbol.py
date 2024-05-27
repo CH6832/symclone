@@ -14,8 +14,12 @@ sys.path.append(project_root)
 from symclone.Symbol import Symbol
 
 class TestSymbol(unittest.TestCase):
+    """
+    Test case for the Symbol class.
+    """
 
     def test_name(self):
+        """Test the name attribute of the Symbol class."""
         symbol = Symbol('x')
         self.assertEqual(symbol.name, 'x')
 
