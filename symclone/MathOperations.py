@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""FuzzyBoolean.py
+"""MathOperations.py
 
-Example usage of the SymClone library.
+Mathematical operations for the SymClone library.
 """
 
 # https://docs.pylint.org/
