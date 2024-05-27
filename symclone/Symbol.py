@@ -7,13 +7,24 @@ Symbol class for the SymClone library.
 """
 
 class Symbol:
-    """Class to represent a symbolic variable."""
+    """
+    Class to represent a symbolic variable.
+    """
     
-    def __init__(self, name: str):
+    def __init__(self, name: str) -> None:
+        """"""
         self.name = name
 
-    def __str__(self):
-        return self.name
+        return None
 
-    def __repr__(self):
-        return f"Symbol('{self.name}')"
+    def __str__(self) -> str:
+        """Returns a string representation of the Symbol object."""
+        symbol_object: str = self.name
+        
+        return symbol_object
+
+    def __repr__(self) -> str:
+        """Returns a string representation that can be used to recreate the Symbol object."""
+        symbol_object_recreated: str = f"Symbol('{self.name}')"
+        
+        return symbol_object_recreated
