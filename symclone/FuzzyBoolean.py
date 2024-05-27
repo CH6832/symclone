@@ -10,7 +10,9 @@ FuzzyBoolean logic for the SymClone library.
 # pylint: disable=line-too-long, trailing-whitespace, multiple-statements, fixme, locally-disabled
 
 class FuzzyBoolean:
-    """Class to represent fuzzy boolean values."""
+    """
+    Class to represent fuzzy boolean values.
+    """
 
     def __init__(self, value: float) -> None:
         """Initialize a FuzzyBoolean instance with the given degree of truth.
