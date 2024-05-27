@@ -14,7 +14,9 @@ from typing import Any, Union
 from symclone.Symbol import Symbol
 
 class Expression:
-    """Class to represent mathematical expressions and perform various operations on them."""
+    """
+    Class to represent mathematical expressions and perform various operations on them.
+    """
 
     def __init__(self, expr: Union[str, 'Expression', Symbol, float, int]) -> None:
         """Initialize an Expression instance with the given expression.
