@@ -46,6 +46,10 @@ git clone https://github.com/CH6832/symclone.git
 
 1. Move into `symclone` directory. 
 
+```sh
+cd symclone
+```
+
 2. Install requirements:
 
 ```sh
@@ -78,6 +82,63 @@ py -m build
 py -m pip install "dist/example_package_CHRISTOPH_HARTLEB-0.0.1-py3-none-any.whl"
 ```
 
+### Generate documentation
+
+0. Create a `docs\` folder:
+
+```sh
+mkdir docs
+```
+
+1. Move into the folder:
+
+```sh
+cd docs
+```
+
+2. Initialize a Sphinx project:
+
+```sh
+sphinx-quickstart
+```
+
+3. Fill the `.rst` files with content, e.g. `index.rst`:
+
+```sh
+.. SymClone documentation master file, created by
+   sphinx-quickstart on Sat May 28 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to SymClone's documentation!
+====================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   modules
+   Expression
+   FuzzyBoolean
+   MathOperations
+   Symbol
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+```
+
+4. Generate the documentation:
+
+```sh
+make html
+```
+
+5. Open the `docs/_build/html/index.html` file in a browser of your choice.
+
 ## :books: Resources used to create this project
 
 * Python
@@ -86,8 +147,8 @@ py -m pip install "dist/example_package_CHRISTOPH_HARTLEB-0.0.1-py3-none-any.whl
   * [Python Module Index](https://docs.python.org/3/py-modindex.html)
   * [math — Mathematical functions](https://docs.python.org/3/library/math.html)
   * [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
-* SymPy
-  * [SymPy](https://www.sympy.org/en/index.html)
+  * [unittest](https://docs.python.org/3/library/unittest.html)
+  * [Sphinx](https://www.sphinx-doc.org/en/master/)
 * Markdwon
   * [Basic syntax](https://www.markdownguide.org/basic-syntax/)
   * [Complete list of github markdown emofis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
